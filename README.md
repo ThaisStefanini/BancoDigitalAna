@@ -49,6 +49,10 @@ O projeto está pronto para uso, mas está aberto a melhorias. O próximo passo 
 - [ ] Adicionar testes unitários automatizados
 - [ ] Otimização de código, facilitando a navegação e manutenção do mesmo do escalar o projeto
 - [ ] Adicionar tratamento de mensageria e métodos com execução assíncrona para novas APIs
+- [ ] 
+## Documentação Completa
+
+Para informações detalhadas sobre a estrutura do banco de dados, diagramas, exemplos de uso e outros detalhes técnicos, acesse a [Wiki do projeto](../../wiki).
 
 ## Autor
 
