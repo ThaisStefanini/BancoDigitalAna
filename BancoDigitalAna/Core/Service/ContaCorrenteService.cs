@@ -162,7 +162,11 @@ namespace BancoDigitalAna.Core.Service
                     HttpStatusCode.Forbidden);
             }
 
-            if (!Enum.IsDefined(typeof(TIPOS_MOVIMENTOS), request.TipoMovimento.ToUpper()))
+            if (Enum.IsDefined(typeof(TIPOS_MOVIMENTOS), request.TipoMovimento.ToUpper()))
+            {
+                request.TipoMovimento = request.TipoMovimento.ToUpper();
+            }
+            else
             {
                 throw new BusinessException(
                     "Tipo de movimento inválido.",
